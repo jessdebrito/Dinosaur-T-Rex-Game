@@ -18,3 +18,55 @@ body {
     font-family: joystick;
     color: #666666;
 }
+
+.highScore {
+    margin-top: -150px;
+}
+
+.dino {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 60px;
+    animation: feetDino 0.25s infinite cubic-bezier(1, 0, 0, 1);
+}
+
+.dinoLowered {
+    width: 75px;
+    height: 45px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 60px;
+    background-image: url("assets/dino/dino5.png");
+    animation: feetDinoLowered 0.25s infinite cubic-bezier(1, 0, 0, 1);
+}
+
+.cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url("assets/cactus/cactus1.png");
+    background-repeat: no-repeat;
+}
+
+.bird {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    animation: flappingWingsBird 0.25s infinite cubic-bezier(1, 0, 0, 1);
+    background-repeat: no-repeat;
+}
+
+.game-over {
+    text-align: center;
+    color: #666666;
+    margin-top: 50px;
+    font-family: joystick;
+}
+
+.scoreBoard {
+    text-align: center;
+}
